@@ -17,9 +17,9 @@ function App() {
       <Sidebar/>
       <div className="flex-1">
         <div ref={homeRef}><Hero/></div>
-        <div ref={aboutRef}><Biography/></div>
-        <Education/>
-        <Projects/>
+        {/* <div ref={aboutRef}><Biography/></div> */}
+        {/* <Education/> */}
+        {/* <Projects/> */}
       </div>
     </div>
   )
