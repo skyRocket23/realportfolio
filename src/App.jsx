@@ -3,6 +3,7 @@ import Biography from "./components/Biography"
 import Hero from "./components/Hero"
 import Sidebar from "./components/Sidebar"
 import Education from './components/Education';
+import Projects from './components/Projects';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
         <div ref={homeRef}><Hero/></div>
         <div ref={aboutRef}><Biography/></div>
         <Education/>
+        <Projects/>
       </div>
     </div>
   )
